@@ -13,7 +13,7 @@ VirusTotal Api to be installed :
 Submit URL(s) to be scanned.
 
 ```
-python vt_driver.py url-scan [-h] url [url ...]
+python virustotalapi.py url-scan [-h] url [url ...]
 
 Positional arguments:
  url         URL(s) (up to 25)
@@ -28,7 +28,7 @@ Optional arguments:
 Get URL scan results.
 
 ```
-python vt_driver.py url-report [-h] url [url ...]
+python virustotalapi.py url-report [-h] url [url ...]
 
 Positional arguments:
  url         URL(s) (up to 25)
@@ -43,7 +43,7 @@ Optional arguments:
 Get information about an IP address.
 
 ```
-python vt_driver.py ip-report [-h] ip
+python virustotalapi.py ip-report [-h] ip
 
 Positional arguments:
  ip          An IPv4 address
@@ -58,7 +58,7 @@ Optional arguments:
 Get information about a domain.
 
 ```
-python vt_driver.py domain-report [-h] domain
+python virustotalapi.py domain-report [-h] domain
 
 Positional arguments:
  domain      A domain name
